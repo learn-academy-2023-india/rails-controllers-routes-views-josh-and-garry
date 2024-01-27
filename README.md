@@ -16,3 +16,18 @@ Additional Pages:
 # The website should have a landing page and at least three additional pages with useful information.
 # The website should be user friendly with navigation between all appropriate pages.
 # The website landing page should appear at localhost:3000
+
+## 💻 Params Challenges
+
+## Create a controller called Main to complete the following challenges. Each challenge will have its own controller method, route, and view file.
+# Create a page called cubed that takes one number as a param and displays that number cubed.
+# Create a page called evenly that takes two numbers as params and displays whether or not the first number is evenly divisible by the second.
+# Create a page called palindrome that takes a string as a param and displays whether it is a palindrome (the same word forward and backward) or not.
+# Create a page called random that takes two numbers as params and displays a random number from within the inclusive range of the two numbers.
+# Create a page called madlib that takes at least three params that are different parts of speech (noun, pronoun, verb, adjective, adverb) and displays a short silly story.
+# Hint: Use AI to generate the story!
+
+## 🏔 Stretch Goals
+
+# Implement error handling in each controller to check if the required parameters are present. Display a custom error message in the view if parameters are missing.
+# Add styling to your pages using the file app/assets/stylesheets/application.css. There is no need to import your stylesheet, Rails handles all of that for you.
